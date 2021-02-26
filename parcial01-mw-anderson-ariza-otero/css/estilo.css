@@ -28,7 +28,7 @@ aside#menu-movil {
     margin: 0; float: none;
 	position: fixed; top: 0;
     right: -290px; z-index: 99999;
-	background: #89b657; 
+	background: #821018f6; 
     }
 aside#menu-movil a#abrir {
   width: 40px;
@@ -48,7 +48,7 @@ aside#menu-movil a#abrir {
   transition: all 0.3s ease-in; }
 
 aside#menu-movil a#abrir:hover {
- background: #293619;
+ background: #89b657;
   transition: all 0.3s ease-in;
   }
 
@@ -66,7 +66,7 @@ aside#menu-movil a#cerrar { width: 40px;
  }
 
 aside#menu-movil a#cerrar:hover {
- background: #293619; 
+ background: #89b657; 
  transition: all 0.3s ease-in; 
 }
 aside#menu-movil nav { 
@@ -87,7 +87,7 @@ aside#menu-movil nav a { width: 100%;
  text-decoration: none;
  transition: all 0.3s ease-in; }
  
-aside#menu-movil nav a:hover { color: #293619; transition: all 0.3s ease-in; }
+aside#menu-movil nav a:hover { color: #263811; transition: all 0.3s ease-in; }
 
 
 /* componentes: HEADER */
@@ -167,7 +167,7 @@ transition: all 0.3s ease-in;
 color: #89B657;}
 
 header article nav a:hover:nth-child(5) {
-background: #222222;
+background: #000000;
 transition: all 0.3s ease-in;
 color: #fff;
 padding: 10px 21px 10px 21px;
@@ -266,7 +266,7 @@ main section#happy-hour article div#happy-hour-texto a {
 
 main section#happy-hour article div#happy-hour-texto a:hover {
   transition: all 0.3s ease-in; 
-  background: #222222;
+  background: #000000;
 }
 
 
@@ -366,7 +366,7 @@ main section#our-menu article div#fila-platos figure h4 {
  z-index: 2;
  display: block;
  background: rgb(255 255 255 / 80%);
- color: #111;
+ color: rgb(0, 0, 0);
  text-align: center;
  border-radius: 5px;
  font-size: 1.8em;
@@ -376,7 +376,7 @@ main section#our-menu article div#fila-platos figure h4 {
 
 main section#our-menu article div#fila-platos figure h4:hover {
  transition: all 0.3s ease-in;
- background: rgb(10 10 10 / 80%);
+ background: #89b657;
  color: #fff;
  }
 
@@ -459,7 +459,7 @@ transition: all 0.3s ease-in;}
 
 
 main section#free-pizza article div#free-pizza-promo a:hover { border-radius: 50px; 
-background: #222222; transition: all 0.3s ease-in; }
+background: #000000; transition: all 0.3s ease-in; }
 
 
 
