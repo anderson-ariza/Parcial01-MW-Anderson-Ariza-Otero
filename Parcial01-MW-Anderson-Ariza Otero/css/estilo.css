@@ -1,0 +1,641 @@
+/* Títulos, enlaces y botones subtítulos, párrafos, formularios y otras etiquetas de textos*/
+h1, h2, h3, h4, h5, p, a, button, form, input, select, textarea, option, table, tr, th, td, span, div, strong,
+em { font-family: 'Roboto', sans-serif; }
+
+/*subtítulos H6*/
+h6 { font-family: 'Permanent Marker', cursive; }
+
+
+/* asignar display: block; a todas las cajas de estructura */
+header, main, footer, aside, section, article, figure, nav, figcaption, div { display: block; }
+
+
+/* quitar margen por defecto a etiquetas que lo traigan */
+h1, h2, h3, h4, h5, h6, p, figure { margin: 0 }
+
+/* anular margen por defecto de body */
+body { margin: 0 !important; }
+
+
+/* estilo propio */
+
+/* componente móvil */
+
+aside#menu-movil { 
+	width: 290px; 
+	height: 100%; 
+	display: none;
+    margin: 0; float: none;
+	position: fixed; top: 0;
+    right: -290px; z-index: 99999;
+	background: #89b657; 
+    }
+aside#menu-movil a#abrir {
+  width: 40px;
+  height: auto;
+  display: block;
+  margin: 0;
+  float: none; 
+  position: absolute;
+  top: 25px;
+  left: -40px;
+  z-index: 99996;
+  background: #89b657 ;
+  color: #fff; 
+  text-align: center; 
+  font-size: 1.3em;
+  padding: 8px 0;
+  transition: all 0.3s ease-in; }
+
+aside#menu-movil a#abrir:hover {
+ background: #293619;
+  transition: all 0.3s ease-in;
+  }
+
+aside#menu-movil a#cerrar { width: 40px;
+ height: auto; display: none; margin: 0; 
+ float: none; 
+ position: absolute;
+ top: 25px; 
+ left: -40px; 
+ z-index: 99996; 
+ background: #89b657;
+ color: #fff; text-align: center;
+ font-size: 1.3em; padding: 8px 0;
+ transition: all 0.3s ease-in;
+ }
+
+aside#menu-movil a#cerrar:hover {
+ background: #293619; 
+ transition: all 0.3s ease-in; 
+}
+aside#menu-movil nav { 
+ width: 70%; 
+ height: auto; 
+ display: block;
+ margin: 40px auto 0 auto; 
+ float: none;
+ position: relative; }
+
+aside#menu-movil nav a { width: 100%;
+ height: auto;
+ display: block;
+ margin: 0 auto 25px; 
+ float: none;
+ position: relative;
+ color: #fff; 
+ text-decoration: none;
+ transition: all 0.3s ease-in; }
+ 
+aside#menu-movil nav a:hover { color: #293619; transition: all 0.3s ease-in; }
+
+
+/* componentes: HEADER */
+
+header { 
+width: 100%; 
+height: 100px; 
+position: fixed; 
+top: 0; left: 0; 
+z-index: 99998; 
+margin: 0; 
+float: none;}
+
+header article { 
+height: 90px; 
+width: 1100px; 
+background: #fff; 
+padding: 0 0 0 100px; 
+border-radius: 0 10px 10px 0; 
+float: left; 
+position: relative; 
+top: 10px; 
+margin: 0; }
+
+header article a { 
+width: auto; 
+height: 60px; 
+margin: 0; 
+float: left; 
+position: relative; 
+padding: 14px 0 }
+
+header article a img { 
+width: auto; 
+height: 60px; 
+margin: 0; 
+float: left; 
+position: relative; }
+
+
+header article nav { 
+width: 700px; 
+height: 42px; 
+margin: 0; 
+float: right; 
+position: relative; 
+padding: 28px 0; }
+
+header article nav a {  
+width: auto; 
+height: auto; 
+margin: 10px 20px 0 0; 
+float: left; 
+position: relative; 
+display: block; 
+text-decoration: none; 
+color: #292727; 
+font-family: 'Roboto', sans-serif; 
+text-transform: uppercase; font-weight: 510; 
+font-size: 0.95em; 
+text-align: center; 
+padding: 0 0 6px; 
+border-bottom: solid 2px #fff;}
+
+header article nav a:nth-child(5) { 
+margin: 0 0 0 38px; 
+color: #fff; 
+background: #89B657; 
+padding: 10px 21px 10px 21px; 
+border-radius: 50px; 
+border-bottom: none;}
+
+header article nav a:hover { 
+border-bottom: 
+solid 2px #89B657; 
+transition: all 0.3s ease-in; 
+color: #89B657;}
+
+header article nav a:hover:nth-child(5) {
+background: #222222;
+transition: all 0.3s ease-in;
+color: #fff;
+padding: 10px 21px 10px 21px;
+border-bottom: none;}
+
+
+
+
+/* componente: CONTENEDOR MAIN */
+main { 
+width: 100%; 
+height: auto; 
+position: relative; 
+margin: auto; 
+float: none; }
+
+
+
+/* HAPPY HOUR */
+main section#happy-hour {
+ width: 100%;
+ height: auto;
+ position: relative;
+ margin: 0 auto; 
+ float: none;
+ background: #f4f7ee url(../img/fondo-puntos.png) no-repeat top center; }
+
+
+main section#happy-hour div#ancla-happy-hour { 
+ width: 100%;
+ height: 1px; 
+ position: absolute;
+ margin: 0 auto;
+ float: none;
+ top: -100px; 
+ left: 0; }
+
+main section#happy-hour article {
+ width: 1100px;
+  height: 826px;
+  position: relative;
+  margin: 0 auto;
+  float: none;
+  padding: 150px 0 0  
+  }
+  
+main section#happy-hour article div#happy-hour-texto {
+ display: block;
+ height: auto;
+ width: 693px;
+ margin: 0 auto;
+ float: none;
+  position: relative;
+ }
+main section#happy-hour article div#happy-hour-texto h3 {
+ font-size: 1.7em;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 700;
+ color: #89b657;
+ text-align: center;
+ padding: 0 0 16px 0;
+ margin: 0;
+ text-transform: uppercase;
+ 
+  } 
+main section#happy-hour article div#happy-hour-texto h2 {
+  font-size: 5em;
+  text-align: center;
+  margin: 0;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif; line-height: 1em;
+  padding: 0 0 47px;
+   }
+main section#happy-hour article div#happy-hour-texto h2 span{
+ color: #89b657;
+  }
+
+main section#happy-hour article div#happy-hour-texto a {
+ width: 115px;
+ height: auto;
+ margin: 0 auto;
+ float: none;
+ text-align: center;
+ text-decoration: none;
+ display: block;
+ font-size: 0.95em;
+ font-family: 'Roboto', sans-serif;
+ color: #fff;
+ padding: 18px 30px;
+ background: #89b657; 
+ border-radius: 50px;
+ text-transform: uppercase;
+ font-weight: 800;
+ letter-spacing: 0.02em;
+}
+
+main section#happy-hour article div#happy-hour-texto a:hover {
+  transition: all 0.3s ease-in; 
+  background: #222222;
+}
+
+
+main section#happy-hour article img {
+ width: 700px;
+ height: auto;
+ position: relative;
+ margin: 0 auto;
+ float: none;
+ display: block;
+ z-index: 99997; 
+ left: 84px; }
+
+
+/* OUR MENU */
+
+
+main section#our-menu {
+ width: 100%;
+ height: auto;
+ position: relative;
+ margin: 0;
+ float: none;
+ background: url(../img/fondo-textura.png) no-repeat top center;
+ background-color: #ffff;
+ background-repeat: repeat-y; }
+
+main section#our-menu div#ancla-our-menu {
+ width: 100%;
+ height: 1px;
+ position: absolute;
+ margin: 0 auto;
+ float: none;
+ top:-100px; left: 0;
+  }
+  
+main section#our-menu article {
+ width: 1100px;
+ height: 800px;
+ position: relative;
+ margin: 0 auto;
+ float: none;
+ padding: 200px 0 0 0;
+  }
+
+main section#our-menu article h6 {
+ text-align: center;
+ font-size: 1.1em;
+ text-transform: uppercase;
+ margin: 25px 0 5px;
+ color: #89B657; 
+ }
+main section#our-menu article h1 {
+ text-align: center;
+ font-size: 4em;
+ font-family:'Roboto', sans-serif;
+ margin: 0 0 90px 0;
+ font-weight: 800;
+  }
+
+main section#our-menu article div#fila-platos {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  float: none;
+  position: relative;
+  }
+
+main section#our-menu article div#fila-platos figure {
+ width: 326px;
+ height: 368px;
+ float: left;
+ position: relative;
+ overflow: hidden;
+ border-radius: 10px;
+ }
+main section#our-menu article div#fila-platos figure:nth-child(1) {margin: 18px 30px 0 0;}
+main section#our-menu article div#fila-platos figure:nth-child(2) { width: 358px; height: 403px; margin: 0 30px 0 0;
+}
+main section#our-menu article div#fila-platos figure:nth-child(3) { margin: 18px 30px 0 0;}
+
+main section#our-menu article div#fila-platos figure img {
+ width: 100%;
+ height: auto;
+ position: absolute;
+ top: 0; left: 0;
+ z-index: 1; display: block;
+ }
+main section#our-menu article div#fila-platos figure h4 {
+ width: 80%;
+ height: auto;
+ margin: 0;
+ float: none;
+ position: absolute;
+ bottom: 15%;
+ left: 10%;
+ z-index: 2;
+ display: block;
+ background: rgb(255 255 255 / 80%);
+ color: #111;
+ text-align: center;
+ border-radius: 5px;
+ font-size: 1.8em;
+ font-family: 'Roboto', sans-serif;
+ padding: 10px 0;
+ transition: all 0.3s ease-in; }
+
+main section#our-menu article div#fila-platos figure h4:hover {
+ transition: all 0.3s ease-in;
+ background: rgb(10 10 10 / 80%);
+ color: #fff;
+ }
+
+
+
+
+/* FREE PIZZA */
+
+main section#free-pizza { 
+
+width: 100%; 
+height: auto; 
+position: relative; 
+margin: 0; 
+float: none; 
+background: url(../img/fondo-promocion.jpg) no-repeat top center; 
+background-position: -570px; }
+
+
+
+main section#free-pizza div#ancla-free-pizza { 
+width: 100%; 
+height: 1px; 
+position: absolute; 
+margin: 0 auto; 
+float: none; top: -100px; 
+left: 0; }
+
+main section#free-pizza article { 
+width: 1100px; 
+height: 460px; 
+margin: 0 auto; 
+float: none; 
+position: relative;}
+
+main section#free-pizza article div#free-pizza-promo h5 { 
+float: left; 
+color: #fff; 
+font-size: 2.4em; 
+text-transform: uppercase; font-family: 'Roboto', sans-serif; 
+font-weight: 100;
+margin: 0; 
+height: 84px; 
+width: auto;}
+
+main section#free-pizza article div#free-pizza-promo h5 span { 
+font-weight: bl; 
+font-size: 2.3em; }
+
+main section#free-pizza article div#free-pizza-promo { 
+width: 401px; 
+height: auto; 
+float: left; 
+position: relative; 
+margin: 0; 
+padding: 106px 0;}
+
+main section#free-pizza article div#free-pizza-promo h3 { 
+float: left; 
+font-size: 4em; 
+text-transform: uppercase; 
+font-family: 'Roboto', sans-serif; 
+font-weight: 600; 
+margin: 0; 
+color: #89B657; 
+padding: 0 0 24px;  }
+
+main section#free-pizza article div#free-pizza-promo a {  
+margin: 0; 
+color: #fff; 
+background: #89B657; 
+padding: 10px 36px 10px 36px; 
+border-radius: 50px; 
+border-bottom: none; 
+float: left; 
+text-decoration: none; 
+text-transform: uppercase;
+font-family: 'Roboto', sans-serif; 
+transition: all 0.3s ease-in;}
+
+
+main section#free-pizza article div#free-pizza-promo a:hover { border-radius: 50px; 
+background: #222222; transition: all 0.3s ease-in; }
+
+
+
+
+
+/* componente: FOOTER */
+footer  { 
+width: 100%; 
+height: auto; 
+position: relative; 
+margin: 0; 
+float: none; 
+background: #f4f7ee; 
+padding: 70px 0 70px;}
+
+footer div#ancla-contacto { 
+width: 100%; 
+height: 1px; 
+position: absolute; 
+margin: 0 auto; 
+float: none; 
+top: -100px; left: 0; }
+
+/*SUPERIOR FOOTER */
+
+footer article { 
+width: 1100px; 
+height: 400px; 
+position: relative; 
+margin: 0 auto; 
+float: none; }
+
+footer article div#superior-footer { 
+width: 580px; 
+height: auto; 
+position: relative; 
+margin: 0 auto; 
+float: none; 
+padding: 100px 0 70px 0;}
+
+footer article div#superior-footer img { 
+width: 120px; 
+height: auto; 
+position: relative; 
+margin: 0 auto; 
+float: none;
+display: block; }
+
+footer article div#superior-footer p { 
+
+font-size: 1,7em; 
+font-weight: 400; 
+text-align: center; 
+color: #808080; 
+font-family: 'Roboto', sans-serif;}
+
+
+
+/* INFERIOR FOOTER */
+
+footer article div#inferior-footer { 
+width: 180px; 
+height: auto; 
+margin: 0px 450px 0px; 
+float: right;
+position: relative; 
+padding: 30px 0px 0px;}
+
+footer article div#inferior-footer nav { 
+width: 178px; 
+height: auto; 
+margin: 0; 
+float: none;
+position: relative;}
+
+footer article div#inferior-footer nav a { 
+width: 37px; 
+height: 37px; 
+float: left; 
+position: relative; 
+color: #fff; 
+border-radius: 50%; 
+text-align: center; 
+margin: 0 7px 0 0; 
+transition: all 0.3s ease-in; }
+
+footer article div#inferior-footer nav a i { 
+text-align: center; 
+font-size: 0.9em; 
+padding: 12px 0 0 0;}
+
+footer article div#inferior-footer nav a:nth-child(1) { background: #2a53c7;}
+footer article div#inferior-footer nav a:nth-child(2) { background:#55acee;}
+footer article div#inferior-footer nav a:nth-child(3) { background:#125688;}
+footer article div#inferior-footer nav a:nth-child(4) { background: #bb0000;}
+
+footer article div#inferior-footer nav a:hover { background: #89B657; transition: all 0.3s ease-in; }
+
+
+/* Zona de Media Queries para Responsive */
+
+/* Ajustes tablets */
+
+@media only screen and (max-width: 1199px){
+    
+    aside#menu-movil { display: block; }
+    
+    header article { float: left; top: 10px; margin: 0 auto; display: block; width: 80%; padding: 0 0 0 95px; }
+    header article a { margin: 0 auto; float: none; display: block; padding: 0; }
+    header article img { margin: 0 auto; float: none; display: block; padding: 14px 0;  }
+    header article nav { display: none;}
+
+    main section#happy-hour { height: auto; }
+    main section#happy-hour article { width: 100%; height: auto; float: none; margin: 0 auto;}
+    main section#happy-hour article img { width: 70%; height: auto; }
+    main section#happy-hour article div#happy-hour-texto { display: block; height: auto; width: 90%;}
+    
+    main section#our-menu article { width: 80%; height: auto; padding: 100px 0; } 
+
+    main section#our-menu article h1 { margin: 0 0 70px 0; }
+
+    main section#our-menu article div#fila-platos {  width: 80%;  height: auto;  margin: 0 auto;  float: none;}
+    
+    main section#our-menu article div#fila-platos figure:nth-child(1) { margin: 0 auto 30px; float: none;}
+    main section#our-menu article div#fila-platos figure:nth-child(2) { margin: 0 auto 30px; float: none;}
+    main section#our-menu article div#fila-platos figure:nth-child(3) { margin: 0 auto 30px; float: none;}
+
+    main section#free-pizza article { width: 80%; }
+
+  
+    main section#free-pizza article div#free-pizza-promo { 
+    height: auto; 
+    float: none; 
+    margin: 0 auto; 
+    padding: 106px 0; }
+
+    main section#free-pizza article div#free-pizza-promo { 
+    width: 396px; 
+    height: auto; 
+    float: none; 
+    position: relative; 
+    margin: 0 auto; 
+    padding: 57px 0; } 
+
+    main section#free-pizza article div#free-pizza-promo h5 { 
+    float: none; 
+    margin: 0 auto; 
+    height: 84px;
+     width: auto; 
+    text-align: center; 
+    padding: 0 0 13px;}
+
+    main section#free-pizza article div#free-pizza-promo h3 { 
+    float: none;  
+    margin: 0 auto; 
+    padding: 0 0 32px; 
+    text-align: center; 
+    line-height: 1em;}
+
+    main section#free-pizza article div#free-pizza-promo a {  
+      margin: 6px auto 0; 
+      padding: 12px 36px 12px 36px; 
+      float: none; 
+      text-align: center; 
+      display: block; 
+      height: 22px; 
+      width: 100px}
+    
+    footer article { width: 80%; height: auto; }
+    footer article div#superior-footer { width: 100%; height: auto; }
+    footer article div#superior-footer p { line-height: 1.5em; padding: 0 39px ; }
+    footer article div#inferior-footer { margin: 0 auto; float: none;}
+
+/* Ajustes para móviles */
+@media only screen and (max width: 499px) { }
+
+
+
+@media only screen and (max width: 499px){ }
